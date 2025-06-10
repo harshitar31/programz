@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+void pattern15(int n){
+    for(char i='A';i<'A'+n;i++){
+        for(char j='A';j<=n-'A'-i;j++){
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+int main(){
+    pattern15(5);
+    return 0;
+}
